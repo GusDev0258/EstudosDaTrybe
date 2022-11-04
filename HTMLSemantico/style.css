@@ -1,1 +1,38 @@
-
+header{
+    background-color: goldenrod;
+    border: 1px solid #00ccdd;
+    height: 120px;
+}
+main{
+    background-color: #000;
+    color: white;
+}
+nav{
+    background-color: #ffaa32;
+    height: 30px;
+}
+article{
+    height: 400px;
+    background-color: #ffdede;
+    margin-right: 400px;
+    padding: 8px;
+    display: block;
+}
+section{
+    height: 250px;
+    background-color: salmon;
+    margin: 8px;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 300px;
+    background-color: coral;
+    margin-left: 1500px;
+}
+footer{
+    background-color: aqua;
+    height: 200px;
+    margin-top: 1000px;
+}
